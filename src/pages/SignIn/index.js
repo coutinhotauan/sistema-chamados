@@ -15,7 +15,7 @@ function SignIn() {
   function handleSubmit(e){
     e.preventDefault();
 
-    if(email !== '' && password != ''){
+    if(email !== '' && password !== ''){
       signIn(email, password);
     }
   }
